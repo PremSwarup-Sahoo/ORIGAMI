@@ -17,10 +17,12 @@ body{
 
 
 .grid{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     margin: 40px;
     font-family: sans-serif;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 25%);
     
 }
 .grid img{
